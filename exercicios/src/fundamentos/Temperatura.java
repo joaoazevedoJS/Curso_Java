@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Temperatura {
 	public static void main(String[] args) {
 		// Formula = (ºF - 32) * 5/9 = ºC
+		
 		Scanner scan = new Scanner(System.in); 
 				
 		final int AJUSTE = 32;
@@ -13,6 +14,8 @@ public class Temperatura {
 		System.out.print("Digite uma temperatura em fahrenheit: ");
 		
 		final String INPUT = scan.nextLine();
+		
+		scan.close();
 		
 		final double FAHRENHEIT = Double.parseDouble(INPUT);
 	

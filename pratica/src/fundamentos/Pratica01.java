@@ -11,5 +11,7 @@ public class Pratica01 {
 		String i = sc.nextLine();
 		
 		System.out.println(i);
+		
+		sc.close();
 	}	
 }

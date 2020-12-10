@@ -13,6 +13,8 @@ public class Inferencia {
 		// A inferência pega o tipo da variável a partir do valor
 		var b = 7.7;
 		
+		System.out.println(b);
+		
 		// c é do tipo String
 		var c = "Texto";
 		System.out.println(c);
