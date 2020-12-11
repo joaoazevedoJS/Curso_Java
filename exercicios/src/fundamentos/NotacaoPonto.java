@@ -13,7 +13,7 @@ public class NotacaoPonto {
 		System.out.println(morning);
 		
 		String morningMale = morning.replace("X", "Senhor!");
-		
+
 		System.out.println(morningMale);
 		
 		String morningFamele = morning.replace("X", "Senhora");
