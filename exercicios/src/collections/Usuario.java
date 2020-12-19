@@ -8,7 +8,7 @@ public class Usuario {
 	}
 	
 	public String toString() {
-		return String.format("Meu nome é %s!", this.nome);
+		return String.format("Meu nome Ã© %s!", this.nome);
 	}
 
 	@Override
