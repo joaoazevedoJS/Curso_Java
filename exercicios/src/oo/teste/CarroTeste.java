@@ -1,4 +1,7 @@
-package oo.composicao;
+package oo.teste;
+
+import oo.composicao.Carro;
+import oo.composicao.Motor;
 
 public class CarroTeste {
 	public static void main(String[] args) {

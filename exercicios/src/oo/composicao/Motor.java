@@ -1,10 +1,10 @@
 package oo.composicao;
 
 public class Motor {
-	boolean ligado = false;
-	double fatorInjecao = 1;
+	protected boolean ligado = false;
+	protected double fatorInjecao = 1;
 	
-	int giros() {
+	public int giros() {
 		if(!ligado) return 0;
 		
 		return (int) Math.round(fatorInjecao * 3000);
